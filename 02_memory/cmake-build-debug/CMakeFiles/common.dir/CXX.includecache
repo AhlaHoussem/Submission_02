@@ -17,6 +17,8 @@ string
 -
 stdexcept
 -
+iostream
+-
 
 C:/Users/Be grateful/Desktop/FUN/3/C++ Softwarepraktikum/Neu/2/02_memory/src/food.hpp
 string

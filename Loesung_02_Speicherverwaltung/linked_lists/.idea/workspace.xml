@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="afc847c3-6e2d-4f43-8a12-8fc929a4c0f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Loesung_02_Speicherverwaltung.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arrays/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arrays/arrays.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arrays/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../debug_linked_lists/List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../debug_linked_lists/List.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../debug_linked_lists/ListItem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../debug_linked_lists/ListItem.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../debug_linked_lists/ListIterator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../debug_linked_lists/ListIterator.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../debug_linked_lists/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../debug_linked_lists/debug_linked_lists.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../debug_linked_lists/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p01/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p01/exceptions_p01.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p01/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p02/List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p02/List.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p02/ListItem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p02/ListItem.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p02/ListIterator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p02/ListIterator.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p02/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p02/exceptions_p02.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exceptions_p02/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/List.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListItem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListItem.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListIterator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ListIterator.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked_lists.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pointers/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pointers/ex05_1_memory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pointers/ex05_e_memory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pointers/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pointers/pointers.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smart_pointers_p01/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smart_pointers_p01/TreeNode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smart_pointers_p01/TreeNode.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smart_pointers_p01/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smart_pointers_p01/smart_pointers_p01.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smart_pointers_p02/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smart_pointers_p02/TreeNode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smart_pointers_p02/TreeNode.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smart_pointers_p02/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../smart_pointers_p02/smart_pointers_p02.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_memory/cmake-build-debug/CMakeFiles/tasks.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_memory/cmake-build-debug/CMakeFiles/tasks.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_memory/cmake-build-debug/CMakeFiles/tasks.dir/src/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_memory/cmake-build-debug/CMakeFiles/tasks.dir/src/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_memory/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_memory/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_memory/cmake-build-debug/tasks.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_memory/cmake-build-debug/tasks.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_memory/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_memory/src/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="28xwGGefobBj6pnF2esfhJ4z018" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MakefileSettings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afc847c3-6e2d-4f43-8a12-8fc929a4c0f5" name="Default Changelist" comment="" />
+      <created>1652171447196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652171447196</updated>
+      <workItem from="1652171448819" duration="6919000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -12,7 +12,7 @@ namespace cppp {
     class Map {
     public:
         Map(const std::size_t size);
-        Map(const Map& other) = delete;
+        Map(const Map& other) = delete; // copy constructor is deleted : no passing by value is possible
         ~Map();
 
         void insert(const std::string& key, const std::vector<Item>& order);

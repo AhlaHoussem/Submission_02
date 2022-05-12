@@ -9,11 +9,11 @@ class Food {
     float preis;
 
 public:
-    Food() = delete;
+    Food() = delete; // it's no possible to init an obj food by an empty constructor
     Food(int bestellnummer, std::string bezeichnung, float preis);
+    int getBestellnummer() const;
     std::string getBezeichnung() const;
     float getPreis() const;
-    int getBestellnummer() const;
 };
 
 void speichern(const std::string& dateiname, const std::vector<Food>& speisen);
