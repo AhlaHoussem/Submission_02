@@ -6,26 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Be grateful/Desktop/FUN/3/C++ Softwarepraktikum/Neu/2/02_memory/src/food.cpp
-food.hpp
-C:/Users/Be grateful/Desktop/FUN/3/C++ Softwarepraktikum/Neu/2/02_memory/src/food.hpp
-fstream
--
-sstream
--
-string
--
-stdexcept
--
-iostream
--
-
-C:/Users/Be grateful/Desktop/FUN/3/C++ Softwarepraktikum/Neu/2/02_memory/src/food.hpp
-string
--
-vector
--
-
 C:/Users/Be grateful/Desktop/FUN/3/C++ Softwarepraktikum/Neu/2/02_memory/src/map.cpp
 map.hpp
 C:/Users/Be grateful/Desktop/FUN/3/C++ Softwarepraktikum/Neu/2/02_memory/src/map.hpp
