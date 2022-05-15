@@ -25,7 +25,7 @@ void speichern(const std::string &dateiname, const std::vector<Food> &speisen) {
     // TODO 2.1.a
 
     std::ofstream myFile;
-    myFile.open(dateiname, std::ios::out); // write mode
+    myFile.open("." + dateiname, std::ios::out); // write mode
 
     // Throw an exception in case the file could not be open
 //    if (!myFile) {
@@ -48,7 +48,7 @@ void laden(const std::string &dateiname, std::vector<Food> &speisen) {
     //  Auf windows hatten wir das Problem mit tmpnam(nullptr) da der erzeugt path der Datein mit "\" als praefix erstellt wurde.
 
     std::ifstream myFile;
-    myFile.open(dateiname, std::ios::in); // read mode
+    myFile.open("." + dateiname, std::ios::in); // read mode
 
     //    if (!myFile) {
 //        throw std::runtime_error("Error for reading! File could not be opened : File not found");
