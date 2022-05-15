@@ -44,7 +44,8 @@ void speichern(const std::string &dateiname, const std::vector<Food> &speisen) {
 
 void laden(const std::string &dateiname, std::vector<Food> &speisen) {
 
-    // TODO 2.1.b
+    // TODO 2.1.b Bemerkung die Methode hat auf IOS sowie auch auf auf Linux funktionrt.
+    //  Auf windows hatten wir das Problem mit tmpnam(nullptr) da der erzeugt path der Datein mit "\" als praefix erstellt wurde.
 
     std::ifstream myFile;
     myFile.open(dateiname, std::ios::in); // read mode
@@ -72,7 +73,7 @@ void laden(const std::string &dateiname, std::vector<Food> &speisen) {
         }
 
         try {
-            speisen.emplace_back(std::stoi(elements[0]), elements[1], std::stof(elements[2]));
+            speisen.push_back(Food(std::stoi(elements[0]), elements[1], std::stof(elements[2])));
             // Construct and insert element at the end of the vector
         } catch (const std::invalid_argument &myEx) {
             throw std::runtime_error(std::string("Error! pushing an element to the vector has failed") + myEx.what());

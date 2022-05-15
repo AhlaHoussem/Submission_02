@@ -21,7 +21,7 @@ namespace cppp {
 
     private:
         const std::size_t size;
-        std::size_t calcHash(const std::string& key);
+        std::size_t calcHash(const std::string& key) const;
 
         struct MapElement {
             std::string key;

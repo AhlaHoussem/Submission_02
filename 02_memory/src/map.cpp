@@ -3,6 +3,8 @@
 #include <vector>
 #include <stdexcept>
 #include <algorithm>
+#include <iostream>
+
 
 cppp::Map::Map(const std::size_t size) : size(size) {
     // TODO 2.2.a
@@ -17,73 +19,65 @@ cppp::Map::~Map() {
 
 void cppp::Map::insert(const std::string &key, const std::vector<Item> &order) {
     // TODO 2.2.c
-    size_t position = calcHash(key);
-    size_t currentPos = position;
+
+    size_t hashPosition = calcHash(key);
+    size_t currentPos = 0;
 
 //    std::vector<MapElement> vector{MapElement{}}; // Initialising an empty vector
-    MapElement mapElement{};
+    MapElement mapElement;
 
-    do {
-        if (arr[currentPos].empty() || arr[currentPos].at(currentPos).key != key) {
+    while (currentPos < arr[hashPosition].size()){
 
-//            vector.at(currentPos).key = key; // positin 0 or size - 1, or currentPos
-//            vector.at(currentPos).value = order;
-//            arr[currentPos] = vector;
-
-            mapElement.key = key;
-            mapElement.value = order;
-            this->arr[currentPos].push_back(mapElement); // TODO why is not pushing back the element into the vector ?
-            return;
-
-        } else if (arr[currentPos].at(currentPos).key == key) {
-            arr[currentPos].at(currentPos).value = order;
+        if (arr[hashPosition].at(currentPos).key == key) {
+            arr[hashPosition].at(currentPos).value = order;
             return;
         }
-        currentPos = (currentPos + 1) % size; // check the next element in the vector
+        currentPos ++; // check the next element in the vector
+    }
+    mapElement.key = key;
+    mapElement.value = order;
+    arr[hashPosition].push_back(mapElement); // TODO why is not pushing back the element into the vector ?
+//            std::cout << &arr[currentPos] ;
 
-    } while (currentPos != position);
 
-    throw std::runtime_error("Insertion has failed. Map is already full");
 }
 
 std::vector<cppp::Item> cppp::Map::get(const std::string &key) {
     // TODO 2.2.e
 
-    size_t position = calcHash(key);
-    size_t currentPos = position;
+    size_t hashPosition = calcHash(key);
+    size_t currentPos = 0;
 
-    do {
 
-        if (arr[currentPos].empty() || arr[currentPos].at(currentPos).key != key) {
-            throw std::invalid_argument("Access of the specific value has failed. The key does not exist in the map.");
-        } else if (arr[currentPos].at(currentPos).key == key) {
-            return arr[currentPos].at(currentPos).value;
+    while (currentPos < arr[hashPosition].size()){
+
+        if (arr[hashPosition].at(currentPos).key == key) {
+            return arr[hashPosition].at(currentPos).value;
         }
+        currentPos ++; // check the next element in the vector
+    }
 
-    } while (currentPos != position);
+    throw std::invalid_argument("Access of the specific value has failed. The key does not exist in the map.");
 
-    return std::vector<cppp::Item>();
 }
 
-void cppp::Map::remove(const std::string &key) {
+void cppp::Map::remove(const std::string& key) {
     // TODO 2.2.d
 
-    size_t position = calcHash(key);
-    size_t currentPos = position;
+    size_t hashPosition = calcHash(key);
 
-
-    do {
-
-        if (arr[currentPos].at(currentPos).key == key) {
-            arr[currentPos].erase(arr[currentPos].begin() + currentPos); // TODO check this line
+    MapElement empty;
+    //arr[hash].erase
+    for (const auto& i : arr[hashPosition])
+    {
+        if (i.key == key){
+            arr[hashPosition] = {empty};
         }
-        currentPos = (currentPos + 1) % size; // check the next element in the vector
-
-    } while (currentPos != position);
+    }
 
 }
 
-std::size_t cppp::Map::calcHash(const std::string &key) {
+std::size_t cppp::Map::calcHash(const std::string &key) const {
     // TODO 2.2.b
 
     size_t sum = 0;
@@ -92,3 +86,29 @@ std::size_t cppp::Map::calcHash(const std::string &key) {
     }
     return sum % size;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
